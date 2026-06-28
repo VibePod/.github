@@ -1,6 +1,6 @@
 # VibePod
 
-One CLI for all AI coding agents — running in isolated Docker containers.
+One CLI for all AI coding agents — running in isolated containers with Docker or Podman.
 No required configuration, no setup, full observability.
 
 ## Quickstart
@@ -14,7 +14,7 @@ vp run <agent>
 
 ## Repositories
 
-**[vibepod-cli](https://github.com/vibepod/vibepod-cli)** — The main CLI (`vp`). Install via pip, run any agent with a single command in an isolated Docker container.
+**[vibepod-cli](https://github.com/vibepod/vibepod-cli)** — The main CLI (`vp`). Install via pip and run any agent with a single command through Docker or Podman.
 
 **[vibepod-proxy](https://github.com/vibepod/vibepod-proxy)** — HTTP proxy that captures all outbound traffic from agent containers and logs it to SQLite for inspection and analysis.
 
